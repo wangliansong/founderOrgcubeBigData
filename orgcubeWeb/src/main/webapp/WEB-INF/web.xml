@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+         version="2.4">
+
+<display-name>Welcome to Tomcat</display-name>
+<description>
+    Welcome to Tomcat
+</description>
+    <!--<servlet>
+        &lt;!&ndash;给survlet起个名字，可以是任意的 &ndash;&gt;
+        <servlet-name>behaviorServlet</servlet-name>
+        &lt;!&ndash;servlet的路径（包名+类名) &ndash;&gt;
+        <servlet-class>com.founder.orgcube.web.servlet.BehaviorServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        &lt;!&ndash; servlet的名字和上面保持统一 &ndash;&gt;
+        <servlet-name>behaviorServlet</servlet-name>
+        &lt;!&ndash; 这是在浏览器中输入的访问该survlet的url，任意的 &ndash;&gt;
+        <url-pattern>/behaviorServlet</url-pattern>
+
+    </servlet-mapping>-->
+<welcome-file-list>
+<welcome-file>index.html</welcome-file>
+</welcome-file-list>
+</web-app>

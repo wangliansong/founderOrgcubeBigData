@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="orgcubeWeb:war">
+    <output-path>$PROJECT_DIR$/orgcubeWeb/target</output-path>
+    <root id="archive" name="orgcubeWeb.war">
+      <element id="artifact" artifact-name="orgcubeWeb:war exploded" />
+    </root>
+  </artifact>
+</component>

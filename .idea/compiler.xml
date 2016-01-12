@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="DEFAULT_COMPILER" value="Javac" />
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="orgcubeSparkStreaming" />
+        <module name="orgcubeUntil" />
+        <module name="orgcubeUtils" />
+        <module name="orgcubeWeb" />
+        <module name="testweb" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="founderOrgcubeBigData" target="1.7" />
+      <module name="orgcubeSparkStreaming" target="1.7" />
+      <module name="orgcubeUntil" target="1.7" />
+      <module name="orgcubeUtil" target="1.7" />
+      <module name="orgcubeUtils" target="1.7" />
+      <module name="orgcubeWeb" target="1.7" />
+      <module name="testweb" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

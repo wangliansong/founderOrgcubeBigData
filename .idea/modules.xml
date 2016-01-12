@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/founderOrgcubeBigData.iml" filepath="$PROJECT_DIR$/founderOrgcubeBigData.iml" />
+      <module fileurl="file://$PROJECT_DIR$/orgcubeSparkStreaming/orgcubeSparkStreaming.iml" filepath="$PROJECT_DIR$/orgcubeSparkStreaming/orgcubeSparkStreaming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/orgcubeUtils/orgcubeUtils.iml" filepath="$PROJECT_DIR$/orgcubeUtils/orgcubeUtils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/orgcubeWeb/orgcubeWeb.iml" filepath="$PROJECT_DIR$/orgcubeWeb/orgcubeWeb.iml" />
+    </modules>
+  </component>
+</project>
